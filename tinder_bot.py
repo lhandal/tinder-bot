@@ -12,7 +12,8 @@ import numpy as np
 from keras.models import load_model
 
 
-pictures_folder = ""
+model = "model_03.h5"
+pictures_folder = "tmp/"
 img_size = 300
 threshold = 0.7
 
