@@ -8,33 +8,31 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin.com/in/lhandal]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
+  <a href="https://https://github.com/lhandal/tinder-bot">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">TINDER AUTO-SWIPE BOT</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Tinder web automation and scraper to swipe based on user training. Built with Selenium and Keras in Python.
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://https://github.com/lhandal/tinder-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://https://github.com/lhandal/tinder-bot">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://https://github.com/lhandal/tinder-bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://https://github.com/lhandal/tinder-bot/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,17 +60,23 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+This project started with the motivation of learning web automation and scraping with Python. After succesfully creating a bot that could:
+
+* Open a browser
+* Login to Tinder.com
+* Accept all notifications and dismiss pop-ups
+* Swipe right or left 100% of the times
+
+We decided to add a deep learning model to predict the probability of likelyhood of a given user. The model we used is a Convolutional Neural Network trained from scratch with more than 10,000 images scraped from Tinder. The model consists of 5 convolutional layers and 3 dense layers. 
+
+This yielded a total of around 1,000,000 trainable parameters for 300x300 grayscale images and took about 6 hours to train 20 epochs with a batches of 50.
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Python](https://www.python.org/)
+* [Keras](https://keras.io/)
+* [Selenium](https://selenium.dev)
 
 
 <!-- GETTING STARTED -->
@@ -82,21 +86,18 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+- Environment running python 3.6
+- Tinder account with Facebook login enabled
 
 ### Installation
  
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/lhandal/tinder-bot.git
 ```
-2. Install NPM packages
+2. Install required packages
 ```sh
-npm install
+pip install -r requirements.txt
 ```
 
 
@@ -140,9 +141,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@lhandal](https://instagram.com/lhandal) - lhandalb@gmail.com
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://github.com/lhandal/tinder-bot)
 
 
 
@@ -160,15 +161,13 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://https://github.com/lhandal/tinder-bot/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://https://github.com/lhandal/tinder-bot/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[stars-url]: https://https://github.com/lhandal/tinder-bot/stargazers
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://https://github.com/lhandal/tinder-bot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/lhandal
 [product-screenshot]: images/screenshot.png
