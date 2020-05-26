@@ -8,7 +8,7 @@ import urllib.request
 import datetime
 import subprocess
 
-pictures_folder = "/Users/leandro.handal/Documents/Fun_Projects/tinder_bot/photos"
+pictures_folder = ""
 
 class TinderBot():
     def __init__(self):
