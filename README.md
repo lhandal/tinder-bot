@@ -16,8 +16,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://https://github.com/lhandal/tinder-bot/images/logo.jpg">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/lhandal/tinder-bot/blob/master/images/logo.jpg">
+    <img src="https://github.com/lhandal/tinder-bot/blob/master/images/logo.jpg" width="600">
   </a>
 
   <h3 align="center">TINDER AUTO-SWIPE BOT</h3>
@@ -58,8 +58,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/lhandal/tinder-bot/master/images/probs.jpg">
+    <img src="https://github.com/lhandal/tinder-bot/master/images/probs.jpg" width="600">
+  </a>
+  </p>
+</p>
+  
 This project started with the motivation of learning web automation and scraping with Python. After succesfully creating a bot that could:
 
 * Open a browser
