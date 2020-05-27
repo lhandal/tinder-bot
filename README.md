@@ -51,7 +51,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -183,10 +182,10 @@ This model has been trained using the information I had available at the moment.
 
 5. Save the changes and run the script. You can run it from the terminal with
 
-``` sh 
-python -i tinder_bot.py
-```
-or open the `run_bot` executable file. 
+     ``` sh 
+     python -i tinder_bot.py
+     ```
+   or open the `run_bot` executable file. 
 
 
 
