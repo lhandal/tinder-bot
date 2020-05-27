@@ -228,7 +228,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@lhandal](https://instagram.com/lhandal) - lhandalb@gmail.com
+Leandro Handal
+
+- Email: [lhandalb@gmail.com](mailto:lhandalb@gmail.com)
+- LinkedIn: [lhandal](https://linkedin.com/in/lhandal)
+- Twitter: [@lhandalb](https://twitter.com/lhandalb)
+- Instagram: [@lhandal](https://instagram.com/lhandal)
 
 Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://github.com/lhandal/tinder-bot)
 
