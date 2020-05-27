@@ -51,6 +51,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 
 
@@ -231,7 +232,10 @@ Your Name - [@lhandal](https://instagram.com/lhandal) - lhandalb@gmail.com
 
 Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://github.com/lhandal/tinder-bot)
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
+Special tahnks to [aj-4](https://github.com/aj-4) for the guidance video!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
