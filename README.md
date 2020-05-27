@@ -235,7 +235,7 @@ Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://gi
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-Special tahnks to [aj-4](https://github.com/aj-4) for the guidance video!
+Special tahnks to [aj-4](https://github.com/aj-4) for the selenium guidance video!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
