@@ -8,9 +8,9 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
+[![Python Badge]][Python Badge]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -256,3 +256,4 @@ Special tahnks to [aj-4](https://github.com/aj-4) for the selenium guidance vide
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lhandal
 [product-screenshot]: images/screenshot.png
+[Python Badge]:https://img.shields.io/badge/Made%20with-Python-blue
