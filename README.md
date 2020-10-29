@@ -8,9 +8,9 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
+[![Python Badge]][Python Badge]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -183,10 +183,10 @@ This model has been trained using the information I had available at the moment.
 
 5. Save the changes and run the script. You can run it from the terminal with
 
-``` sh 
-python -i tinder_bot.py
-```
-or open the `run_bot` executable file. 
+     ``` sh 
+     python -i tinder_bot.py
+     ```
+   or open the `run_bot` executable file. 
 
 
 
@@ -228,11 +228,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@lhandal](https://instagram.com/lhandal) - lhandalb@gmail.com
+Leandro Handal
+
+- Email: [lhandalb@gmail.com](mailto:lhandalb@gmail.com)
+- LinkedIn: [lhandal](https://linkedin.com/in/lhandal)
+- Twitter: [@lhandalb](https://twitter.com/lhandalb)
+- Instagram: [@lhandal](https://instagram.com/lhandal)
 
 Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://github.com/lhandal/tinder-bot)
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
+Special tahnks to [aj-4](https://github.com/aj-4) for the selenium guidance video!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -248,3 +256,4 @@ Project Link: [https://https://github.com/lhandal/tinder-bot](https://https://gi
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lhandal
 [product-screenshot]: images/screenshot.png
+[Python Badge]:https://img.shields.io/badge/Made%20with-Python-blue
