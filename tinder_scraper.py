@@ -51,6 +51,12 @@ class TinderBot():
 
         sleep(3)
 
+        # Click on login button
+        login_button = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/header/div[1]/div[2]/div/button')
+        login_button.click()
+
+        sleep(1)
+
         # Log in with Facebook
         login_with_facebook_button = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/span/div[2]/button/span[2]')
         login_with_facebook_button.click()
@@ -115,14 +121,29 @@ class TinderBot():
 
     # Save picture
     def get_pic_path(self):
-        pic_path = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div[3]/div/div')
-        pic_url = pic_path.get_attribute('style').split('"')[1]
+        try:
+            pic_path = bot.driver.find_element_by_xpath(
+                '//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/span[1]/div')
+            pic_url = pic_path.get_attribute('style').split('"')[1]
+
+        except:
+            pic_path = self.driver.find_element_by_xpath(
+                '//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div[1]/div/div')
+            pic_url = pic_path.get_attribute('style')[0].split('"')[1]
         return pic_url
 
     def download_tinder_jpeg(self, file_name):
         path = pictures_folder
-        pic_path = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div[1]/div/div')
-        pic_url = pic_path.get_attribute('style').split('"')[1]
+
+        try:
+            pic_path = bot.driver.find_element_by_xpath(
+                '//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/span[1]/div')
+            pic_url = pic_path.get_attribute('style').split('"')[1]
+
+        except:
+            pic_path = self.driver.find_element_by_xpath(
+                '//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div[1]/div/div')
+            pic_url = pic_path.get_attribute('style')[0].split('"')[1]
 
         full_path = path + '/' + file_name + '.webp'
         urllib.request.urlretrieve(pic_url, full_path)
