@@ -4,4 +4,4 @@ matplotlib==3.2.1
 selenium==3.141.0
 webptools==0.0.2
 webdriver_manager==2.5.2
-Pillow==7.1.2
+Pillow==10.0.1
