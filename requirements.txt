@@ -1,5 +1,5 @@
 numpy==1.22.0
-Keras==2.3.1
+Keras==3.13.2
 matplotlib==3.2.1
 selenium==3.141.0
 webptools==0.0.2
